@@ -1,14 +1,14 @@
-AnimeHub - Modern Anime Slider 🎌
+# AnimeHub - Modern Anime Slider 🎌
 
 A sleek, responsive anime slider showcasing popular anime series with smooth transitions, interactive thumbnails, and accessibility features.
 
 🌐 Live  https://adarshteq.github.io/AnimeHub-Page/
 
-Features ✨
+# Features ✨
 
 Animated Slider: Smooth transitions between anime showcases
 
-Interactive Elements:
+# Interactive Elements:
 
 Navigation arrows
 
@@ -16,13 +16,13 @@ Thumbnail previews
 
 "Watch Now" and "My List" buttons
 
-Modern UI:
+# Modern UI:
 
 Gradient accents
 
 Glassmorphism effects
 
-Responsive Design: Works on mobile, tablet, and desktop
+# Responsive Design: Works on mobile, tablet, and desktop
 
 Accessibility:
 
@@ -30,7 +30,7 @@ ARIA labels for screen readers
 
 Keyboard navigation (arrow keys)
 
-Additional Features:
+# Additional Features:
 
 Auto-sliding with pause on hover
 
@@ -38,7 +38,7 @@ Progress bar indicator
 
 Current time display
 
-Technologies Used 💻
+# Technologies Used 💻
 
 HTML5 - Semantic markup
 
@@ -56,7 +56,7 @@ JavaScript - Interactive functionality
 
 Font Awesome - Icon set
 
-Accessibility ♿
+# Accessibility ♿
 
 Keyboard Navigation:
 
@@ -64,7 +64,7 @@ Keyboard Navigation:
 
 -Enter to select thumbnails
 
-Screen Reader Ready:
+# Screen Reader Ready:
 
 -ARIA labels for all interactive elements
 
