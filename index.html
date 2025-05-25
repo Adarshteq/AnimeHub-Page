@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">Anime<span>Hub</span></h1>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Popular</a>
+        <a href="#">Genres</a>
+        <a href="#">About</a>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search anime...">
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item active">
+          <img src="./1.jpg" alt="Attack on Titan" />
+          <div class="content">
+            <div class="type">ATTACK ON TITAN</div>
+            <div class="rating">
+              <i class="fas fa-star"></i> 9.1/10
+              <span class="year">2013 - 2023</span>
+            </div>
+            <div class="description">
+              Attack on Titan (Shingeki no Kyojin) is a Japanese anime series
+              based on the manga of the same name by Hajime Isayama. 
+              It is widely acclaimed for its intense story, complex 
+              characters, and deep philosophical themes.
+            </div>
+            <div class="button">
+              <button><i class="fas fa-play"></i> Watch Now</button>
+              <button class="secondary"><i class="fas fa-plus"></i> My List</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./2.jpg" alt="Jujutsu Kaisen" />
+          <div class="content">
+            <div class="type">JUJUTSU KAISEN</div>
+            <div class="rating">
+              <i class="fas fa-star"></i> 8.8/10
+              <span class="year">2020 - Present</span>
+            </div>
+            <div class="description">
+              Jujutsu Kaisen is a popular Japanese anime and manga series created by Gege Akutami.
+               It combines supernatural elements, intense action, and deep emotional storytelling.
+            </div>
+            <div class="button">
+              <button><i class="fas fa-play"></i> Watch Now</button>
+              <button class="secondary"><i class="fas fa-plus"></i> My List</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./3.jpg" alt="Demon Slayer" />
+          <div class="content">
+            <div class="type">DEMON SLAYER</div>
+            <div class="rating">
+              <i class="fas fa-star"></i> 8.7/10
+              <span class="year">2019 - Present</span>
+            </div>
+            <div class="description">
+            Demon Slayer: Kimetsu no Yaiba is a highly acclaimed Japanese anime series known
+            for its stunning animation, emotional storytelling, and intense battles.
+            It's based on the manga written and illustrated by Koyoharu Gotouge.
+            </div>
+            <div class="button">
+              <button><i class="fas fa-play"></i> Watch Now</button>
+              <button class="secondary"><i class="fas fa-plus"></i> My List</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./4.jpg" alt="One Piece" />
+          <div class="content">
+            <div class="type">ONE PIECE</div>
+            <div class="rating">
+              <i class="fas fa-star"></i> 8.9/10
+              <span class="year">1999 - Present</span>
+            </div>
+            <div class="description">
+              One Piece is one of the most iconic and longest-running anime series in history. 
+              Created by Eiichiro Oda, it's a high-seas adventure packed with humor, emotion, 
+              friendship, and epic battles. The story blends fantasy, pirate lore, and 
+              deep world-building like no other anime.
+            </div>
+            <div class="button">
+              <button><i class="fas fa-play"></i> Watch Now</button>
+              <button class="secondary"><i class="fas fa-plus"></i> My List</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="thumbnail">
+        <div class="item active">
+          <img src="./1.jpg" alt="">
+          <div class="content">
+            <div class="title">Attack on Titan</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./2.jpg" alt="">
+          <div class="content">
+            <div class="title">Jujutsu Kaisen</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./3.jpg" alt="">
+          <div class="content">
+            <div class="title">Demon Slayer</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./4.jpg" alt="">
+          <div class="content">
+            <div class="title">One Piece</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-bar"></div>
+      
+      <div class="arrowButtons">
+        <button class="prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+        <button class="next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="time"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
